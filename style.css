@@ -6,13 +6,10 @@
     background-color: #f7f7f7;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-section {
-    scroll-margin-top: 12vh;
-}
+html{scroll-behavior: smooth;}
+section {scroll-margin-top: 12vh;}
 
+/* header */
 .header {
     position: fixed;
     z-index: 1000;
@@ -49,8 +46,9 @@ section {
     margin-left: 20px;
     font-weight: 500;
 }
+/* header */
 
-
+/* landing-page */
 .landing {
     height: 90vh;
     display: flex;
@@ -86,11 +84,11 @@ section {
 
 .text-landing h1 {
     font-weight: 700;
-    font-size: 2.6rem;
+    font-size: 41.5px;
 }
 
 .text-landing .button {
-    margin-top: 25px
+    margin-top: 25px;
 }
 
 .tombol{
@@ -110,7 +108,9 @@ section {
     background-color: #09b11f;
     color: #f7f7f7;
 }
+/* landing-page */
 
+/* about-page */
 .about-page{
     min-height: 100vh;
     padding: 50px;
@@ -120,13 +120,14 @@ section {
 .about-page .text{
     color:rgb(39, 39, 37);
 }
+/* about-page */
 
+/* footer */
 footer {
     background: #111;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
-    background: none;
 }
 
 .content {
@@ -135,5 +136,36 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 10px;
+}
+
+.content h3, .content p {
+    background-color: transparent;
+    color: #f7f7f7;
 
 }
+
+.content h3 {font-size: 27px;}
+.content p {font-size: 15px;}
+
+.copyright {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.copyright p{
+    background-color: transparent;
+    color: #f7f7f7;
+}
+
+.copyright p a {
+    background-color: transparent;
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+/* footer */
