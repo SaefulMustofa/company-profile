@@ -91,7 +91,7 @@ section {scroll-margin-top: 12vh;}
     margin-top: 25px;
 }
 
-.tombol{
+.tombol {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,13 +113,99 @@ section {scroll-margin-top: 12vh;}
 /* about-page */
 .about-page{
     min-height: 100vh;
-    padding: 50px;
-    margin-left: 7%;
+    padding: 20px;
+    margin: 50px 7%;
 }
 
-.about-page .text{
+.about-page .text {
     color:rgb(39, 39, 37);
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.container .text-box {
+    position: absolute;
+    background-color: #272725;
+    width: 500px;
+    height: 500px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+/* mid text-box */
+.container .text-box-mid {
+    position: absolute;
+    background-color: #272725;
+    width: 500px;
+    height: 500px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.container .image-box-mid {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 400px;
+}
+
+.container .image-box-mid img {
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+}
+
+/* mid text-box */
+
+.container .content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+    color: #f7f7f7;
+}
+
+.container .text-box .content-box p {
+    background-color: transparent;
+    text-align: right;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.container .text-box .content-box a {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #f7f7f7;
+    max-width: fit-content;
+    margin-left: auto;
+    padding: 10px;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+.container .image-box {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    height: 400px;
+}
+.container .image-box img {
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+}
+
+
+
+
 /* about-page */
 
 /* footer */
