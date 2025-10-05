@@ -1,1 +1,1 @@
-clone website dari https://titik-koma.netlify.app/
+challenge clone website dengan pure html dan css dari https://titik-koma.netlify.app/
