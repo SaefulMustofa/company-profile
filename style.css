@@ -294,6 +294,7 @@ section {scroll-margin-top: 12vh;}
     scroll-snap-type: x mandatory;  
     height: 85vh;  
     background: transparent;
+    justify-content: center
 }
 
 .product-card {
@@ -341,9 +342,7 @@ section {scroll-margin-top: 12vh;}
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .testimonial-container {
     display: flex;
@@ -402,6 +401,10 @@ section {scroll-margin-top: 12vh;}
 .testimonial-container .testimonial-img img {
     width: 400px;
     height: 400px;
+}
+
+.testimonial-container .testimonial-img button {
+    visibility: hidden;
 }
 
 /* testimonial-page */
