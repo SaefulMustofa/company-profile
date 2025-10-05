@@ -352,4 +352,47 @@ footer {
     text-decoration: none;
 }
 
+.sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.sosmed li {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.sosmed li a {
+    display: inline-block;
+    color: #fff; 
+    background: transparent !important; 
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0;
+    transition: color 0.3s ease;
+}
+
+.sosmed i,
+.sosmed .fa-brands {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: auto;
+    height: auto;
+}
+
+
 /* footer */
